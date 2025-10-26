@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/studyword"
+        android:title="Từ vựng theo chủ đề"/>
+    <item android:id="@+id/search" android:title="Tra từ"/>
+
+    <item android:id="@+id/exit" android:title="Đăng xuất"/>
+
+</menu>

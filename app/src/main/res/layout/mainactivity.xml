@@ -23,8 +23,8 @@
 
     <Button
         android:id="@+id/btn"
-        android:layout_width="354dp"
-        android:layout_height="61dp"
+        android:layout_width="355dp"
+        android:layout_height="59dp"
         android:backgroundTint="@color/blue_dark"
         android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"

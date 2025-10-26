@@ -1,4 +1,4 @@
-package com.example.dictionary000;
+package com.example.dictionary000.Class;
 
 public class Topic {
     private  int id;

@@ -6,6 +6,7 @@ import  androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.dictionary000.Dao.DictionaryDao;
@@ -29,6 +30,7 @@ public class Register extends  AppCompatActivity {
         edtemail=findViewById(R.id.edtEmail);
         edtpassword=findViewById(R.id.edtPassword);
         edtName=findViewById(R.id.edtName);
+        TextView txtSingin=findViewById(R.id.tvSignin);
         btnregister.setOnClickListener(v->{
             String email=edtemail.getText().toString().trim();
             String password=edtpassword.getText().toString().trim();
@@ -63,6 +65,11 @@ public class Register extends  AppCompatActivity {
 
 
         });
+        txtSingin.setOnClickListener(v->{
+            onBackPressed();
+        });
+
+
 
     }
 }
